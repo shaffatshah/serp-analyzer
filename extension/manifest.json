@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "SERP Outline Collector",
+  "version": "1.0.0",
+  "description": "Captures page metadata and heading outline and sends it to the local SERP Analyzer app.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://localhost:3000/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Capture page outline"
+  }
+}

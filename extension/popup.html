@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capture Page Outline</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 360px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      color: #111;
+      background: #fff;
+    }
+    .header {
+      padding: 12px 14px 10px;
+      border-bottom: 1px solid #e5e7eb;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .preview {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e5e7eb;
+      background: #f9fafb;
+    }
+    .preview-title {
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .preview-url {
+      color: #6b7280;
+      font-size: 11px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 2px;
+    }
+    .preview-stats {
+      color: #6b7280;
+      font-size: 11px;
+      margin-top: 4px;
+    }
+    .fields {
+      padding: 10px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .field-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    label {
+      display: block;
+      font-size: 11px;
+      color: #6b7280;
+      margin-bottom: 3px;
+    }
+    input, select {
+      width: 100%;
+      padding: 5px 8px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      font-size: 12px;
+      background: #fff;
+      color: #111;
+    }
+    input:focus, select:focus {
+      outline: none;
+      border-color: #6366f1;
+    }
+    .footer {
+      padding: 10px 14px 14px;
+      border-top: 1px solid #e5e7eb;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background: #111;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    button:hover { background: #374151; }
+    button:disabled { background: #9ca3af; cursor: not-allowed; }
+    .status {
+      margin-top: 8px;
+      font-size: 12px;
+      text-align: center;
+      min-height: 16px;
+    }
+    .status.success { color: #16a34a; }
+    .status.error { color: #dc2626; }
+    .loading { color: #6b7280; }
+  </style>
+</head>
+<body>
+  <div class="header">Capture Page Outline</div>
+
+  <div class="preview" id="preview">
+    <div class="preview-title" id="preview-title">Loading…</div>
+    <div class="preview-url" id="preview-url"></div>
+    <div class="preview-stats" id="preview-stats"></div>
+  </div>
+
+  <div class="fields">
+    <div class="field-row">
+      <div>
+        <label for="keyword">Keyword</label>
+        <input type="text" id="keyword" placeholder="target keyword" />
+      </div>
+      <div>
+        <label for="serpPosition">SERP position</label>
+        <input type="text" id="serpPosition" placeholder="e.g. 3" />
+      </div>
+    </div>
+    <div class="field-row">
+      <div>
+        <label for="country">Country / language</label>
+        <input type="text" id="country" placeholder="e.g. Thailand, EN" />
+      </div>
+      <div>
+        <label for="pageType">Page type</label>
+        <select id="pageType">
+          <option value="">— select —</option>
+          <option value="official">Official</option>
+          <option value="law firm">Law firm</option>
+          <option value="visa agency">Visa agency</option>
+          <option value="blog">Blog</option>
+          <option value="forum">Forum</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <button id="saveBtn" disabled>Save capture</button>
+    <div class="status" id="status"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -12,6 +12,32 @@ export type HeadingNode = {
   text: string
 }
 
+export type CapturePageType = 'official' | 'law firm' | 'visa agency' | 'blog' | 'forum' | 'other' | ''
+
+export type Capture = {
+  id: string
+  capturedAt: string
+  url: string
+  domain: string
+  title: string | null
+  metaDescription: string | null
+  canonicalUrl: string | null
+  robotsMeta: string | null
+  headingOutline: HeadingNode[]
+  excerpt: string | null
+  wordCount: number | null
+  schemaTypes: string[]
+  internalLinkCount: number
+  externalLinkCount: number
+  keyword: string
+  serpPosition: string
+  country: string
+  pageType: CapturePageType
+  notes: string
+  strengthTag: string
+  weaknessTag: string
+}
+
 export type PageResult = {
   id: string
   url: string

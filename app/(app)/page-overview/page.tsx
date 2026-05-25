@@ -15,7 +15,7 @@ function downloadFile(content: string, filename: string, mimeType: string) {
   URL.revokeObjectURL(url)
 }
 
-export default function Home() {
+export default function PageOverview() {
   const [url, setUrl] = useState('')
   const [keyword, setKeyword] = useState('')
   const [position, setPosition] = useState('')
@@ -70,10 +70,9 @@ export default function Home() {
   const isEmpty = results.length === 0
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8 space-y-6">
-      <h1 className="text-xl font-semibold">SERP Page Overview</h1>
+    <div className="max-w-3xl space-y-6">
+      <h1 className="text-xl font-semibold">Page Overview</h1>
 
-      {/* Input */}
       <div className="space-y-2">
         <div className="flex gap-2">
           <input
@@ -111,7 +110,6 @@ export default function Home() {
         {error && <p className="text-sm text-destructive">{error}</p>}
       </div>
 
-      {/* Export */}
       <div className="flex gap-2">
         {[
           { label: 'Export MD', fn: () => downloadFile(exportToMarkdown(results), 'serp-research.md', 'text/markdown') },
@@ -129,7 +127,6 @@ export default function Home() {
         ))}
       </div>
 
-      {/* Results */}
       <div className="space-y-4">
         {results.map(r => (
           <ResultCard
