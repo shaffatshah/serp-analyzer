@@ -42,6 +42,7 @@ Single-page Next.js 16 app running locally at `localhost:3000`. All state lives 
    - Non-200 status → `fetch_failed`
    - Non-HTML Content-Type → `unsupported_content_type`
    - CAPTCHA/challenge signals (short body + known patterns) → `captcha_or_challenge`
+   - Login redirect or login form signals (URL contains `/login`, `/signin`, or body contains login form) → `login_required`
 4. Parse with cheerio. If extracted visible text is under ~100 words → flag as `js_rendered_incomplete`.
 5. Return structured `PageResult` JSON.
 
