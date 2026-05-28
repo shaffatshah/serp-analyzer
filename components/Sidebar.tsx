@@ -8,6 +8,7 @@ const NAV = [
   { label: 'Home', href: '/' },
   { label: 'Page Overview', href: '/page-overview' },
   { label: 'Page Outline Collector', href: '/page-outline-collector' },
+  { label: 'Language Check', href: '/language-check' },
 ]
 
 export function Sidebar() {
