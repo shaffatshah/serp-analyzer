@@ -1,0 +1,50 @@
+[
+  {
+    "id": "phrase_001",
+    "label": "worth + verb",
+    "pattern": "\\bworth\\s+(checking|confirming|asking|knowing|understanding|considering|verifying|exploring|reviewing)\\b",
+    "severity": "medium",
+    "reason": "Repeated 'worth + verb' phrasing can create an AI-style editorial cadence.",
+    "enabled": true
+  },
+  {
+    "id": "phrase_002",
+    "label": "practical + noun",
+    "pattern": "\\bpractical\\s+(answer|takeaway|pattern|setup|note|consequence|reality|guide|tip|advice|option)\\b",
+    "severity": "medium",
+    "reason": "Repeated 'practical + noun' phrasing can sound formulaic.",
+    "enabled": true
+  },
+  {
+    "id": "phrase_003",
+    "label": "what this means",
+    "pattern": "\\bwhat this means\\b",
+    "severity": "medium",
+    "reason": "Repeated 'what this means' framing creates an AI-style explanatory cadence.",
+    "enabled": true
+  },
+  {
+    "id": "phrase_004",
+    "label": "one thing to note",
+    "pattern": "\\bone thing to note\\b",
+    "severity": "medium",
+    "reason": "Formulaic AI-style qualifier.",
+    "enabled": true
+  },
+  {
+    "id": "phrase_005",
+    "label": "the key + noun",
+    "pattern": "\\bthe key\\s+(limitation|difference|point|thing|factor|consideration|requirement|step|issue|question)\\b",
+    "severity": "low",
+    "reason": "Repeated 'the key + noun' framing can create a formulaic editorial tone.",
+    "enabled": true
+  },
+  {
+    "id": "phrase_006",
+    "label": "in most cases",
+    "pattern": "\\bin most cases\\b",
+    "severity": "low",
+    "reason": "Vague qualifier. Often clearer to state the actual pattern or percentage.",
+    "enabled": true
+  }
+]

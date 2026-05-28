@@ -1,0 +1,12 @@
+[
+  { "id": "closing_001", "pattern": "the best option depends", "severity": "medium", "reason": "tidy summary closing", "enabled": true },
+  { "id": "closing_002", "pattern": "the right choice depends", "severity": "medium", "reason": "tidy summary closing", "enabled": true },
+  { "id": "closing_003", "pattern": "it depends on your", "severity": "medium", "reason": "tidy summary closing", "enabled": true },
+  { "id": "closing_004", "pattern": "the answer varies", "severity": "medium", "reason": "tidy summary closing", "enabled": true },
+  { "id": "closing_005", "pattern": "it varies by", "severity": "medium", "reason": "tidy summary closing", "enabled": true },
+  { "id": "closing_006", "pattern": "the key takeaway", "severity": "medium", "reason": "AI-style section summary label", "enabled": true },
+  { "id": "closing_007", "pattern": "keep this in mind", "severity": "medium", "reason": "tidy reminder closing", "enabled": true },
+  { "id": "closing_008", "pattern": "as always", "severity": "low", "reason": "filler transition closing", "enabled": true },
+  { "id": "closing_009", "pattern": "ultimately, the decision", "severity": "medium", "reason": "tidy summary closing", "enabled": true },
+  { "id": "closing_010", "pattern": "overall, the", "severity": "low", "reason": "tidy summary opening word", "enabled": true }
+]

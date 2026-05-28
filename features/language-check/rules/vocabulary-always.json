@@ -1,0 +1,22 @@
+[
+  { "id": "vocab_001", "phrase": "leverage", "matchType": "word", "severity": "high", "replacementHint": "use, rely on", "enabled": true },
+  { "id": "vocab_002", "phrase": "utilize", "matchType": "word", "severity": "high", "replacementHint": "use", "enabled": true },
+  { "id": "vocab_003", "phrase": "navigating", "matchType": "word", "severity": "high", "replacementHint": "handling, working through, dealing with", "enabled": true },
+  { "id": "vocab_004", "phrase": "navigate", "matchType": "word", "severity": "high", "replacementHint": "handle, work through, deal with", "enabled": true },
+  { "id": "vocab_005", "phrase": "daunting", "matchType": "word", "severity": "high", "replacementHint": "difficult, complicated, hard", "enabled": true },
+  { "id": "vocab_006", "phrase": "seamlessly", "matchType": "word", "severity": "high", "replacementHint": "easily, without issues, without problems", "enabled": true },
+  { "id": "vocab_007", "phrase": "seamless", "matchType": "word", "severity": "high", "replacementHint": "smooth, easy, simple", "enabled": true },
+  { "id": "vocab_008", "phrase": "empower", "matchType": "word", "severity": "high", "replacementHint": "allow, help, let, give", "enabled": true },
+  { "id": "vocab_009", "phrase": "streamline", "matchType": "word", "severity": "high", "replacementHint": "simplify, speed up, reduce steps in", "enabled": true },
+  { "id": "vocab_010", "phrase": "robust", "matchType": "word", "severity": "high", "replacementHint": "strong, reliable, stable", "enabled": true },
+  { "id": "vocab_011", "phrase": "comprehensive", "matchType": "word", "severity": "medium", "replacementHint": "complete, full, detailed", "enabled": true },
+  { "id": "vocab_012", "phrase": "cutting-edge", "matchType": "phrase", "severity": "high", "replacementHint": "newest, latest, most recent", "enabled": true },
+  { "id": "vocab_013", "phrase": "holistic", "matchType": "word", "severity": "high", "replacementHint": "full, complete, overall", "enabled": true },
+  { "id": "vocab_014", "phrase": "paramount", "matchType": "word", "severity": "high", "replacementHint": "most important, critical, essential", "enabled": true },
+  { "id": "vocab_015", "phrase": "it's important to note", "matchType": "phrase", "severity": "high", "replacementHint": "rewrite as a direct statement", "enabled": true },
+  { "id": "vocab_016", "phrase": "in conclusion", "matchType": "phrase", "severity": "high", "replacementHint": "remove or rewrite as a direct statement", "enabled": true },
+  { "id": "vocab_017", "phrase": "a wide range of", "matchType": "phrase", "severity": "high", "replacementHint": "many, various, several", "enabled": true },
+  { "id": "vocab_018", "phrase": "whether you're a", "matchType": "phrase", "severity": "high", "replacementHint": "remove, start with the direct point", "enabled": true },
+  { "id": "vocab_019", "phrase": "delve", "matchType": "word", "severity": "high", "replacementHint": "look at, examine, explore", "enabled": true },
+  { "id": "vocab_020", "phrase": "synergy", "matchType": "word", "severity": "high", "replacementHint": "describe the actual benefit directly", "enabled": true }
+]

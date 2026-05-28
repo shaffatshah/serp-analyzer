@@ -1,0 +1,8 @@
+[
+  { "id": "vocab_li_001", "phrase": "framework", "matchType": "word", "severity": "high", "replacementHint": "system, rules, setup, structure", "enabled": true },
+  { "id": "vocab_li_002", "phrase": "landscape", "matchType": "word", "severity": "high", "replacementHint": "situation, options, market, range", "enabled": true },
+  { "id": "vocab_li_003", "phrase": "infrastructure", "matchType": "word", "severity": "medium", "replacementHint": "roads, services, systems, networks", "enabled": true },
+  { "id": "vocab_li_004", "phrase": "footprint", "matchType": "word", "severity": "medium", "replacementHint": "presence, size, coverage, reach", "enabled": true },
+  { "id": "vocab_li_005", "phrase": "bandwidth", "matchType": "word", "severity": "high", "replacementHint": "capacity, time, speed, ability", "enabled": true },
+  { "id": "vocab_li_006", "phrase": "onboarding", "matchType": "word", "severity": "medium", "replacementHint": "getting started, signing up, setting up", "enabled": true }
+]

@@ -1,0 +1,17 @@
+[
+  { "id": "ai_001", "pattern": "can feel overwhelming", "severity": "high", "reason": "AI-style soft opener", "enabled": true },
+  { "id": "ai_002", "pattern": "plays a crucial role", "severity": "high", "reason": "AI editorial filler", "enabled": true },
+  { "id": "ai_003", "pattern": "at the end of the day", "severity": "high", "reason": "AI-style closing phrase", "enabled": true },
+  { "id": "ai_004", "pattern": "it is worth noting", "severity": "high", "reason": "AI-style hedge opener", "enabled": true },
+  { "id": "ai_005", "pattern": "needless to say", "severity": "high", "reason": "AI editorial filler", "enabled": true },
+  { "id": "ai_006", "pattern": "as mentioned earlier", "severity": "medium", "reason": "AI structural cue", "enabled": true },
+  { "id": "ai_007", "pattern": "as mentioned above", "severity": "medium", "reason": "AI structural cue", "enabled": true },
+  { "id": "ai_008", "pattern": "it goes without saying", "severity": "high", "reason": "AI editorial filler", "enabled": true },
+  { "id": "ai_009", "pattern": "in today's world", "severity": "high", "reason": "AI opener cliché", "enabled": true },
+  { "id": "ai_010", "pattern": "in the modern world", "severity": "high", "reason": "AI opener cliché", "enabled": true },
+  { "id": "ai_011", "pattern": "this guide will", "severity": "medium", "reason": "AI meta-commentary opener", "enabled": true },
+  { "id": "ai_012", "pattern": "in this article", "severity": "medium", "reason": "AI meta-commentary opener", "enabled": true },
+  { "id": "ai_013", "pattern": "key takeaway", "severity": "medium", "reason": "AI structural label", "enabled": true },
+  { "id": "ai_014", "pattern": "in summary", "severity": "medium", "reason": "AI summary opener", "enabled": true },
+  { "id": "ai_015", "pattern": "it is important to understand", "severity": "high", "reason": "AI-style hedge opener", "enabled": true }
+]

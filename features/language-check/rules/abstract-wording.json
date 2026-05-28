@@ -1,0 +1,10 @@
+[
+  { "id": "abstract_001", "word": "friction", "severity": "medium", "reason": "Abstract wording. May be clearer if replaced with the actual problem.", "enabled": true },
+  { "id": "abstract_002", "word": "ecosystem", "severity": "medium", "reason": "Abstract wording. Often clearer as system, setup, apps, banks, or services.", "enabled": true },
+  { "id": "abstract_003", "word": "trajectory", "severity": "medium", "reason": "Abstract wording. Often clearer as direction, path, or rate of change.", "enabled": true },
+  { "id": "abstract_004", "word": "nuance", "severity": "medium", "reason": "Abstract wording. Usually clearer if replaced with the specific detail.", "enabled": true },
+  { "id": "abstract_005", "word": "paradigm", "severity": "high", "reason": "Abstract wording. Usually clearer as approach, method, model, or system.", "enabled": true },
+  { "id": "abstract_006", "word": "overhead", "severity": "low", "reason": "Abstract wording. Often clearer as extra cost, extra steps, or extra time.", "enabled": true },
+  { "id": "abstract_007", "word": "scalability", "severity": "medium", "reason": "Abstract wording. Often clearer as ability to grow, handles more users, or scales up.", "enabled": true },
+  { "id": "abstract_008", "word": "granular", "severity": "medium", "reason": "Abstract wording. Usually clearer as detailed, specific, or broken down.", "enabled": true }
+]

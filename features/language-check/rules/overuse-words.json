@@ -1,0 +1,10 @@
+[
+  { "id": "overuse_001", "word": "typically", "limit": 2, "severity": "medium", "replacementHint": "usually, or state the pattern directly", "enabled": true },
+  { "id": "overuse_002", "word": "generally", "limit": 2, "severity": "medium", "replacementHint": "usually, in most cases, or state directly", "enabled": true },
+  { "id": "overuse_003", "word": "essentially", "limit": 2, "severity": "medium", "replacementHint": "remove or rewrite as a direct statement", "enabled": true },
+  { "id": "overuse_004", "word": "importantly", "limit": 2, "severity": "medium", "replacementHint": "remove — let the point speak for itself", "enabled": true },
+  { "id": "overuse_005", "word": "however", "limit": 3, "severity": "low", "replacementHint": "but, or restructure the sentence", "enabled": true },
+  { "id": "overuse_006", "word": "therefore", "limit": 2, "severity": "low", "replacementHint": "so, which means, or rewrite as a direct consequence", "enabled": true },
+  { "id": "overuse_007", "word": "simply", "limit": 2, "severity": "medium", "replacementHint": "remove — the simplicity should be implied", "enabled": true },
+  { "id": "overuse_008", "word": "straightforward", "limit": 2, "severity": "medium", "replacementHint": "simple, clear, easy, or describe what makes it so", "enabled": true }
+]
